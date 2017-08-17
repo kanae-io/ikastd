@@ -1,0 +1,18 @@
+namespace std {
+
+%wild = {}
+
+def &js $ {|%name|
+  %wild[:js] = %name
+}
+
+def &css $ {|%name|
+  %wild[:css] = %name
+}
+
+def &colorscheme $ {|%cs|
+  %wild[:colorscheme] = %cs
+}
+
+}
+
